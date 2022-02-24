@@ -1,0 +1,455 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Misfortunes of St. Paul's cathedral</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1678</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 6 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A51003</idno>
+            <idno type="STC">Wing M2248A</idno>
+            <idno type="STC">ESTC R42176</idno>
+            <idno type="EEBO-CITATION">24119586</idno>
+            <idno type="OCLC">ocm 24119586</idno>
+            <idno type="VID">109659</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A51003)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 109659)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1707:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Misfortunes of St. Paul's cathedral</title>
+               </titleStmt>
+               <extent>8 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1678]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Place  and date of publication suggested by Wing.</note>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>St. Paul's Cathedral (London, England) --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-12</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2009-12</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:109659:1"/>
+            <!-- PDF PAGE 44 -->
+            <pb n="1" facs="tcp:109659:1"/>
+            <!-- PDF PAGE 44 -->
+            <head>THE MISFORTUNES OF St. <hi>Paul's</hi> CATHEDRAL</head>
+            <l>Could we Conſult th' Eternal Mighty Fates,</l>
+            <l>Which give fixt Laws to Greateſt Kings and States:</l>
+            <l>And know what they above have once degreed</l>
+            <l>For their poor Vaſſals, we ſhould have no need</l>
+            <l>To make Reflections on what 'ere is done;</l>
+            <l>Or be ſolicitous for what's to come:</l>
+            <l>Free from ſuch Cares we unconcern'd could ſit,</l>
+            <l>Like Loyal Subjects, ready to ſubmit.</l>
+            <l>But ſince the Gods will not ſuch favour ſhow</l>
+            <l>To ſhallow, find Beings here below;</l>
+            <l>Thy'l not deny a Pardon ſure, if we</l>
+            <l>Encompaſſed with whole Troops of Miſery;</l>
+            <l>In mournful Accents do at length expreſs.</l>
+            <l>Nor need we ſtudy for a Thame more fit</l>
+            <l>For ſerious Tragedy, than Comic Wit:</l>
+            <l>If we but look upon that Sacred Place,</l>
+            <l>Which did too much ungrateful <hi>England</hi> grace;</l>
+            <l>We muſt confeſs its infelicity</l>
+            <l>Exceeds the Bounds of an Hyperbole.</l>
+            <l>That ſtately Pile, and Sacred to the Name</l>
+            <l>Of Thee Great <hi>Paul,</hi> is now the Nations ſhame.</l>
+            <l>Thou moſt unhappy Church, ther's none can be</l>
+            <l>In pure unhapineſs compar'd to Thee.</l>
+            <l>You may derive your Royal Pedigree</l>
+            <l>From him, who was of <hi>Saxon</hi> Monarchy</l>
+            <pb facs="tcp:109659:2"/>
+            <!-- PDF PAGE 45 -->
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb n="1" facs="tcp:109659:2"/>
+            <!-- PDF PAGE 45 -->
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <l>
+               <pb n="2" facs="tcp:109659:3"/>
+               <!-- PDF PAGE 46 -->
+The greateſt glory, nay yet farther, who</l>
+            <l>Was ſomething greater, giving Birth to you.</l>
+            <l>For many Ages did you ſtand intire,</l>
+            <l>Whilſt every one your glory did admire:</l>
+            <l>This <hi>Bitiſh</hi> Iſle, tho' great, could not contein</l>
+            <l>A thing ſo large as thy prodigious Name.</l>
+            <l>No Nation then ſo rude, but ſtrove to be</l>
+            <l>Spectators of all Arts Epitome.</l>
+            <l>Thouſands of wandring Pilgrims round thee throng,</l>
+            <l>Sated with joy and admiration.</l>
+            <l>'Twas ſuch a glorious, rare amazing Scene,</l>
+            <l>That they could ſcarce believe what they had ſeen.</l>
+            <l>But thy Illuſtrious Splendour prov'd to be</l>
+            <l>The Prologue to a Future Tragedy:</l>
+            <l>For Gods at laſt ſtood in an extaſy,</l>
+            <l>To ſee a thing ſo great, ſo brave as Thee.</l>
+            <l>How much ſays <hi>Jove</hi> that Palace doth out-ſhine</l>
+            <l>This mean, this deſpicable Houſe of mine?</l>
+            <l>It derogates too much from my Grandeur;</l>
+            <l>I can no longer this affront endure.</l>
+            <l>'Tis fit that theſe bold Sons of Earth ſhould know,</l>
+            <l>That their Dominion only is below:</l>
+            <l>Theſe higher Orbs, the Clouds and Sky, are mine;</l>
+            <l>Nor will I my Prerogative reſign.</l>
+            <l>From hence their ſwelling thoughts will ſoar ſo high;</l>
+            <l>They'l ſcorn the Gods, and hufft their Deity.</l>
+            <l>This Second <hi>Babel</hi> therefore ſoon ſhall down,</l>
+            <l>For fear they Rival me too in my Crown.</l>
+            <l>He gave the word: th' officious Lightning ran;</l>
+            <l>And like the <hi>Caeſar,</hi> ſaw and overcame.</l>
+            <l>Yet <hi>Jove</hi> himſelf, who does Heavens Scepter ſway,</l>
+            <l>Reſpect and Honour to this place did pay:</l>
+            <l>His ſtrict Injunctions to the Flames were ſuch,</l>
+            <l>He ſuffer'd not their greedy hands to touch</l>
+            <l>The Body, or Foundation of the Quire;</l>
+            <l>But only check'd th' ambition of the Spire.</l>
+            <l>That Lofty Head, which did too high aſpire,</l>
+            <l>Was ſoon Lopp'd off by the victorious Fire.</l>
+            <l>
+               <pb n="3" facs="tcp:109659:3"/>
+               <!-- PDF PAGE 46 -->
+Then did that Tyrant, Time, the common Foe</l>
+            <l>Of aged things, ſtrive hard to overthrow</l>
+            <l>Thy weak and tottering Columns, but in vain;</l>
+            <l>For all its Force thou well could'ſt then ſuſtain:</l>
+            <l>Great <hi>CHARLES,</hi> That Earthly God did Thee Defend,</l>
+            <l>Who was to holy things a conſtant Friend;</l>
+            <l>Thy Friend and thy Phyſician he did prove,</l>
+            <l>Fed with the Sacred Fire of zealous Love.</l>
+            <l>He heal'd thy wounds; nor did he leave thee ſo;</l>
+            <l>But added to thy State a <hi>Portico.</hi>
+            </l>
+            <l>But when thy Zealous Patron <hi>Charles</hi> had been</l>
+            <l>Huff'd by bold Rebels, when their Plots were green;</l>
+            <l>His Native Right out-juſtled by the Rout,</l>
+            <l>And Treacherous Swords againſt the Scepter fought;</l>
+            <l>When that prevailing Party bore ſuch Sway,</l>
+            <l>Nought could, but Royal Blood, their Rage allay;</l>
+            <l>Thoſe Hurricanes of State who could withſtand,</l>
+            <l>When diſmal Ruine overflow'd the Land?</l>
+            <l>Thy ſpotleſs Innocency prov'd to be</l>
+            <l>But an incentive to their Cruelty.</l>
+            <l>So does the harmleſs Dove a Victim fall</l>
+            <l>To Hawks, which Banquet at her Funeral.</l>
+            <l>Thy Loyalty did truly then appear,</l>
+            <l>Thy didſt a part in all his Sufferings bear</l>
+            <l>Who was the Lord's anointed; and we own</l>
+            <l>It fit, that Kings don't mourn, or dye alone.</l>
+            <l>Like a dejected Widow, you had on</l>
+            <l>Griefs Livery, becauſe your Lord was gone.</l>
+            <l>No Choriſter durſt then approach that Quire,</l>
+            <l>Which Men, nay Angels once might well admire.</l>
+            <l>Thy Hymns Divine were Baniſh'd; and the noiſe</l>
+            <l>Of Horſes lowder than the choiſeſt voice.</l>
+            <l>Though Marble, you ſure wept to ſee ſuch Gueſts</l>
+            <l>So near your Hallow'd Altar daily feaſt.</l>
+            <l>Unparalleld Prophaneneſs! ſince we know,</l>
+            <l>That Heathens never uſ'd their Temples ſo.</l>
+            <l>Their Blind Devotion ſtill ſuch reverence pay'd</l>
+            <l>To thoſe Mock-Gods which their own hands had made,</l>
+            <l>What 'ere was dedicated to their Name,</l>
+            <l>Might not be touch'd by any thing prophane.</l>
+            <l>But our Reformers were ſo frugal grown,</l>
+            <l>They thought it was too much for God alone,</l>
+            <l>
+               <pb n="4" facs="tcp:109659:4"/>
+               <!-- PDF PAGE 47 -->
+A whole Cathedral to Monopolize.</l>
+            <l>And therefore were ſo zealous and ſo wiſe,</l>
+            <l>Him and his ſervice both they bid farwell;</l>
+            <l>And ſuffer Horſes in his Courts to dwell.</l>
+            <l>Religion ſure, is brought to ſtrange decay,</l>
+            <l>When none but Horſes tread the ſacred way.</l>
+            <l>Thoſe Storms were overblown at laſt; the Air</l>
+            <l>Once more began to look ſerene and fair:</l>
+            <l>Our Princes Reſtauration ſeem'd to be</l>
+            <l>A happy and long-wiſh'd for jubile.</l>
+            <l>Thoſe Eyes which ſeldom ſaw that Stranger ſleep,</l>
+            <l>Oppreſſ'd with miſery, forgot to weep.</l>
+            <l>The ſad Reflections on paſt Tyaanny</l>
+            <l>Were ſwallowed up in thoughts of Liberty.</l>
+            <l>Such univerſal joy as knows no Bounds,</l>
+            <l>In e'vry Loyal Subjects heart was found.</l>
+            <l>Then did you like thoſe Embers that have lain</l>
+            <l>In heaps of Aſhes, your Loſt Strength regain:</l>
+            <l>In peace and Triumph then you had a ſhare;</l>
+            <l>Becauſe misfortunes you ſo well did bear.</l>
+            <l>No ſtrength ſo great, no univerſal ſway;</l>
+            <l>But muſt at laſt to Nature Tribute pay.</l>
+            <l>The Bloomiſh Roſe, the Glory of ehe Spring,</l>
+            <l>By one cold Blaſt is left a ſilly thing.</l>
+            <l>When <hi>Phaebus</hi> with the greateſt State and Pride,</l>
+            <l>Mounted his Charriot, doth in Triumph ride;</l>
+            <l>Some ſullen and malicious Cloud in ſpight,</l>
+            <l>With Sabel-Curtains doth ecclipſe his Light.</l>
+            <l>So was thy Infant-Bliſs a Martyr made,</l>
+            <l>To'th utmoſt rage of cruel flames betray'd:</l>
+            <l>Flames crueller than thoſe which deſtroy</l>
+            <l>Thy walls, the works o'th Gods o <hi>Troy</hi>
+            </l>
+            <l>A fiery Army ſure's enough to make</l>
+            <l>The haughtieſt and moſt darted ſpirit quake:</l>
+            <l>Such grim'd look'd Enemies did then appear;</l>
+            <l>Which never underſtood what 'twas to ſpear,</l>
+            <l>The frowning General his well-Marſhall'd Troops</l>
+            <l>Summons together; then about him looks:</l>
+            <l>My Fellow-Souldiers, you have always been</l>
+            <l>With Laurel Crown'd; but yet have never ſeen</l>
+            <l>An Enemy ſo vaſt, ſo brave as this;</l>
+            <l>Who of the greateſt danger worthy is.</l>
+            <l>
+               <pb n="5" facs="tcp:109659:4"/>
+               <!-- PDF PAGE 47 -->
+Behold a City ſleeping and ſecure,</l>
+            <l>Not apprehending us, or danger near:</l>
+            <l>One bold attack will make her Towers ſhake;</l>
+            <l>The next a place ſo unprovided take.</l>
+            <l>Here Heaps of Gold, and Jewels crowded lye,</l>
+            <l>As if it were the Worlds vaſt Treaſury</l>
+            <l>A Proſpect of ſuch Plunder ſure would ſet</l>
+            <l>New Edges on your Swords, and Courage whet</l>
+            <l>He ſpake: th' impatient Troops in haſt fall on,</l>
+            <l>As if they thought, they'd been kept back too long.</l>
+            <l>Each takes his ſeveral Poſt; thus did they fight;</l>
+            <l>And then their rallied Companies unite.</l>
+            <l>Horrour's Effigies then fill'd every place,</l>
+            <l>To ſee its Ruine marching on apace.</l>
+            <l>In vain they ſupplicate the mighty power</l>
+            <l>Of conquering Flames, and ſhed a fruitleſs Shower</l>
+            <l>Of being Tears, whilſt each repeated cry</l>
+            <l>Helpes to make up the Scene of Miſery.</l>
+            <l>The Sun when he his Courſe had ſcarce half run,</l>
+            <l>Bluſhing, Retires, to ſee himſelf out-done;</l>
+            <l>To ſee a Fire on Earth ſo ſtrangely bright,</l>
+            <l>Which made continual day, and knew no Night.</l>
+            <l>Such Clouds of Smoak each Minute did ariſe;</l>
+            <l>The Gods might think 'twas ſome great Sacrifice.</l>
+            <l>A Real Sacrifice it was; but ſuch,</l>
+            <l>No Tongue or Pen can 'ere lament too much:</l>
+            <l>Miſtake moſt diſmal, and unheard device,</l>
+            <l>When Altars are themſelves the Sacrifice.</l>
+            <l>Thoſe Sacred Temples which did others ſave,</l>
+            <l>Now burn'd to Aſhes cannot find a Grave:</l>
+            <l>But muſt with common things confuſed lye,</l>
+            <l>Unleſs diſtinguiſhed by an Elegy.</l>
+            <l>In this how kindly did the Fates conſpire?</l>
+            <l>Though Urns they wanted, yet had Funeral Fire.</l>
+            <l>Thy <hi>Criſis</hi> now unhappy Church we ſee,</l>
+            <l>Who long had ſtrugled with hard Deſtiny:</l>
+            <l>Tryals of Fire you did before endure,</l>
+            <l>Which purged your Droſs, yet left you not ſecure:</l>
+            <l>Theſe Flames Impartial were, and mov'd down all;</l>
+            <l>Nor could you 'ere have had a nobler fall;</l>
+            <l>Sharing your Fate, when others did attend,</l>
+            <l>Ambitious of their Mother-Churches End.</l>
+            <l>
+               <pb n="6" facs="tcp:109659:5"/>
+               <!-- PDF PAGE 48 -->
+The difference this; although y'ad all one death,</l>
+            <l>On them alone the Fates beſtow'd new breath:</l>
+            <l>They only roſe again, 'tis only they,</l>
+            <l>Who ſeem to antidate the general day.</l>
+            <l>Continual Changes through each Creature paſs,</l>
+            <l>Until Transform'd again to what it was.</l>
+            <l>Heavens glorious Hoſt, the Stars with ſparkling Eyes</l>
+            <l>Have their Declinings, but they ſet to riſe.</l>
+            <l>Although Queen <hi>Cynthia</hi> conſtant Waining bears,</l>
+            <l>In her full Luſtre ſhe ſometimes appears.</l>
+            <l>So is the Oak, when it with Storms hath ſtrove,</l>
+            <l>The Glory, and the Monarch of the Grove,</l>
+            <l>Of all its brave and green array bereft,</l>
+            <l>To Cruel Winter's Mercy naked left;</l>
+            <l>But when the Rage of envious Winter's gone,</l>
+            <l>Its new green Livery is ſoon put on.</l>
+            <l>Thoſe dying Plants, which lately ſoughts a Tomb,</l>
+            <l>Within their Mother Earth's indulgent Womb</l>
+            <l>Put forth their Heads, and ſtand amaz'd awhile,</l>
+            <l>To ſee again one univerſal Smile.</l>
+            <l>Each Tree and Plant, looks then ſo brisk and gay,</l>
+            <l>Nature it ſelf ſeems to keep Holy-day.</l>
+            <l>New Vigour is infuſ'd to every thing,</l>
+            <l>But only you; you know no ſecond Spring.</l>
+            <l>Your utter Ruine's by the Fates decreed;</l>
+            <l>Who give freſh wounds, and laugh to ſee them bleed.</l>
+            <l>
+               <hi>Pandora's</hi> Box was empty once; but we</l>
+            <l>Behold another fruitful Progeny</l>
+            <l>Of Evils and Misfortunes, hover round</l>
+            <l>Thy diſlocated Members on the ground.</l>
+            <l>Though one would think the Fates ſhould tired be</l>
+            <l>Of one continud' Scene of Cruelty;</l>
+            <l>Or that their Wit, nay Rage could not invent</l>
+            <l>A Plague for thee, which has not yet been ſent;</l>
+            <l>Triumphing on your Ruines now they tread,</l>
+            <l>Like an Inſulting Conqueror o're the Dead.</l>
+            <l>Behold a place, which lately did appear</l>
+            <l>Too great a Labour for an Age to rear;</l>
+            <l>In twice ſix years, ſo rich, ſo ſtately grown,</l>
+            <l>As if Devouring Flames it ne're had known.</l>
+            <l>Strange Paradox! can Fire, that diſmal thing,</l>
+            <l>New ſtrength and Honour to a City bring?</l>
+            <l>
+               <pb n="7" facs="tcp:109659:5"/>
+               <!-- PDF PAGE 48 -->
+Such was thy Fate, O <hi>London;</hi> Loe it came</l>
+            <l>To Uſher in thy preſent Wealth and Fame:</l>
+            <l>That there might Room and fit Reception be</l>
+            <l>For ſuch a Stately, Noble thing as thee.</l>
+            <l>Compar'd to you Old <hi>London</hi>'s mean and low,</l>
+            <l>As Shrubs which under <hi>Cedar's</hi> ſhadows grow.</l>
+            <l>Of other Cities you may well be Queen,</l>
+            <l>When ev'ry Houſe does like a Palace ſeem.</l>
+            <l>The Proud <hi>Aegyptian Memphis</hi> fam'd of old,</l>
+            <l>A Rival <hi>Pyramid</hi> may here behold.</l>
+            <l>Thoſe Churches, which with you had equal fate</l>
+            <l>In Fire and Aſhes, both live now in State:</l>
+            <l>They all appear in ſuch a Splendid Dreſs,</l>
+            <l>Their Ruine ſeems their greateſt Happineſs.</l>
+            <l>But for Precedence ſtriving, could not ſtay,</l>
+            <l>For thee their Mother-Church to lead the way.</l>
+            <l>On them, though plenteous Showrs of Joy did fall,</l>
+            <l>Poor <hi>Gideon</hi>'s Fleece was dry amongſt them all.</l>
+            <l>Whilſt all things elſe their joy in Triumph ſound,</l>
+            <l>Like an unpitied Beggar on the ground,</l>
+            <l>Poor ſolitary Nymph You ſet alone,</l>
+            <l>The only Auditor of your own Moan.</l>
+            <l>O ſad <hi>Cataſtrophe!</hi> how chang'd are you?</l>
+            <l>Of what you were, you ſcarce the ſhadow ſhew.</l>
+            <l>Full of pretended piety and Care</l>
+            <l>We ruin'd what the very Flames did ſpare.</l>
+            <l>We pull'd down what their Mercy let remain;</l>
+            <l>But have forgot to build Thee up again.</l>
+            <l>Thoſe Hands, whoſe Strength and Vigour then was ſhewn;</l>
+            <l>Are uſeleſs now, and paralytick grown</l>
+            <l>Forſaken of falſe Friends, you ſadly ſtand</l>
+            <l>Deriſion's common Object through the Land.</l>
+            <l>This wounded deeper than all former Ills;</l>
+            <l>For more than wretched's he whom pity kills.</l>
+            <l>A rough, confuſ'd, imperfect thing are you;</l>
+            <l>As <hi>Chaos</hi> was, 'ere any Form it knew.</l>
+            <l>One part begun, unfiniſh'd does admire,</l>
+            <l>After ſo many years to be no higher:</l>
+            <l>It looks upon thoſe Heaps of Stones below,</l>
+            <l>And fancies them to be remiſs and ſlow:</l>
+            <l>It frets and fumes, to ſee their ſtrange Delay;</l>
+            <l>And bids them haſten, haſten, come away.</l>
+            <l>
+               <pb n="8" facs="tcp:109659:6"/>
+               <!-- PDF PAGE 49 -->
+They ſighing, anſwer ah! we cannot move,</l>
+            <l>Unleſs ſupported by the zeal and Love</l>
+            <l>Of ſome <hi>Mecenas;</hi> 'tis the joyful ſound</l>
+            <l>Of ſuch a Voice muſt raiſe us from the ground.</l>
+            <l>Although we don't believe, th' Enchanting Lyre</l>
+            <l>Of <hi>Orpheus</hi> could the very Stones inſpire:</l>
+            <l>Or that the Stones ſhould ſo ingenuous be,</l>
+            <l>To dance and keep an uniformity;</l>
+            <l>An with ſuch good Invention were ſill'd,</l>
+            <l>That they themſelves the City <hi>Thebes</hi> did build;</l>
+            <l>Yet we ſhall ſcarce this Place Rebuilded ſee,</l>
+            <l>Unleſs that Method now Repeated be:</l>
+            <l>For whilſt the Stones for aid doth Sigh and Moan,</l>
+            <l>More deal than they, and Flinty we are grown.</l>
+            <l>Hundreds of Prieſts, and <hi>Levites</hi> every day</l>
+            <l>Are thy Spectators; ſo they paſs away.</l>
+            <l>But ſcarce one good <hi>Samaritan</hi> is found,</l>
+            <l>To pity, or relieve thee on the Ground.</l>
+            <l>Although ſo many wear the Holy Robe,</l>
+            <l>Moſt prove ſuch Friends, as others did to <hi>Job</hi>
+            </l>
+            <l>Unhappy Church! well mayſt thou long to be</l>
+            <l>Reduced to a pure Non-Enity.</l>
+            <l>Till then we'll not diſgrace the Name of <hi>Paul;</hi>
+            </l>
+            <l>But Thee Misfortunes Hieroglyphic call.</l>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:109659:6"/>
+            <!-- PDF PAGE 49 -->
+         </div>
+      </body>
+   </text>
+</TEI>
